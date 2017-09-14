@@ -1,9 +1,10 @@
-jSSC-2.8.0 Release version (24.01.2014)
+= jSSC-2.8.0 Release version (24.01.2014)
+---
 
 This version contains native libs for Windows(x86, x86-64), Linux(x86, x86-64, ARM soft & hard float), Solaris(x86, x86-64), Mac OS X(x86, x86-64, PPC, PPC64).
 All native libs contains in the jssc.jar file and you don't need manage native libs manually.
 
-In this build:
+== In this build:
 
 	Fixes:
 		* Important! Fixed bug with port handles potential leakage
@@ -21,7 +22,7 @@ With Best Regards, Sokolov Alexey aka scream3r.
 //jSSC-2.6.0 Release version (01.06.2013)//
 ///////////////////////////////////////////
 
-In this build:
+== In this build:
 
 	Note: Linux x86 and x86-64 was builded on Ubuntu 10.04 and don't depends GLIBC-2.15 unlike jSSC-2.5.0
 
@@ -34,7 +35,7 @@ In this build:
 //jSSC-2.5.0 Release version (27.04.2013)//
 ///////////////////////////////////////////
 
-In this build:
+== In this build:
 
 	Fixes:
 		* Important! Fixed bug with garbage reading on Linux, MacOSX, Solaris, cause of incorrect using of VMIN and VTIME. Now "read" methods works correctly and are blocking like in Windows
@@ -67,7 +68,7 @@ And other little modifications...
 //jSSC-0.9.0 Release version (21.12.2011)//
 ///////////////////////////////////////////
 
-In this build:
+== In this build:
 * Added Solaris support (x86, x86-64)
 * Added Mac OS X support 10.5 and higher(x86, x86-64, PPC, PPC64)
 * Fixed some bugs in Linux native part
@@ -93,7 +94,7 @@ Important Note:
 //jSSC-0.8 Release version (28.11.2011)//
 /////////////////////////////////////////
 
-In this build:
+== In this build:
 * Implemented events BREAK and ERR (RXFLAG not supported in Linux)
 * Added method sendBreak(int duration) - send Break signal for setted time
 * Fixed bugs in Linux events listener
@@ -103,7 +104,7 @@ In this build:
 //jSSC-0.8-tb4 (21.11.2011)//
 /////////////////////////////
 
-In this build was fixed a bug in getPortNames() method under Linux.
+== ==In this build was fixed a bug in getPortNames() method under Linux.
 
 Not implemented yet list:
 * Events: BREAK, ERR and RXFLAG
@@ -112,12 +113,12 @@ Not implemented yet list:
 //jSSC-0.8-tb3 (09.09.2011)//
 /////////////////////////////
 
-In this build was implemented:
+== In this build was implemented:
 * purgePort()
 
 And was fixed some Linux and Windows lib bugs.
 
-New in this build:
+== New in this build:
 * getInputBufferBytesCount() - get count of bytes in input buffer (if error has occured -1 will be returned)
 * getOutputBufferBytesCount() - get count of bytes in output buffer (if error has occured -1 will be returned)
 * setFlowControlMode() - setting flow control (available: FLOWCONTROL_NONE, 
